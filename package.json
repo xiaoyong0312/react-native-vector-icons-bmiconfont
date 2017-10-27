@@ -1,0 +1,70 @@
+{
+  "name": "react-native-vector-icons-bmiconfont",
+  "version": "0.0.1",
+  "description": "iconfont fontawesome",
+  "main": "index.js",
+  "bin": {
+    "generate-icon": "./generate-icon.js"
+  },
+  "scripts": {
+    "build": "rm -rf {Fonts,IconFont.js,FontAwesome.js,glyphmaps} && mkdir Fonts glyphmaps && npm run build-fontawesome && npm run build-iconfont ",
+    "build-fontawesome": "node generate-icon node_modules/font-awesome/css/font-awesome.css --prefix=.fa- --componentName=FontAwesome --fontFamily=FontAwesome --template=templates/separated-icon-set.tpl --glyphmap=glyphmaps/FontAwesome.json > FontAwesome.js && cp node_modules/font-awesome/fonts/fontawesome-webfont.ttf Fonts/FontAwesome.ttf",
+    "build-iconfont": "node generate-icon iconfont/iconfont.css --prefix=icon- --componentName=IconFont --fontFamily=IconFont --template=templates/separated-icon-set.tpl --glyphmap=glyphmaps/IconFont.json > IconFont.js && cp iconfont/iconfont.ttf Fonts/IconFont.ttf"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "mobile",
+    "ios",
+    "android",
+    "osx",
+    "windows",
+    "macos",
+    "ui",
+    "icon",
+    "icons",
+    "vector",
+    "retina",
+    "font",
+    "iconfont"
+  ],
+  "author": {
+    "name": "angrycans",
+    "email": "angrycans@gmail.com"
+  },
+  "homepage": "https://github.com/angrycans/react-native-vector-icons-bmiconfont",
+  "bugs": {
+    "url": "https://github.com/angrycans/react-native-vector-icons-bmiconfont/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/angrycans/react-native-vector-icons-bmiconfont.git"
+  },
+  "license": "MIT",
+  "rnpm": {
+    "assets": [
+      "Fonts"
+    ]
+  },
+  "dependencies": {
+    "lodash": "^4.0.0",
+    "yargs": "^6.3.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-eslint": "^7.0.0",
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1",
+    "evil-icons": "^1.8.0",
+    "font-awesome": "^4.6.3",
+    "ionicons": "^3.0.0",
+    "material-design-icons": "^3.0.1",
+    "mdi": "1.7.22",
+    "octicons": "^5.0.1"
+  }
+}
