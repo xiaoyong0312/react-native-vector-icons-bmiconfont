@@ -18,7 +18,7 @@ add http://www.iconfont.cn/ lib
 ##update iconfont 
 1. cd {your project}/node_modules/react-native-vector-icons-bmiconfont
 
-2. cp http://www.iconfont.cn/ your lib to iconfont/
+2. cp http://www.iconfont.cn/ your lib to 本工程根目录的 /iconfont/
 
 3. npm run build
 

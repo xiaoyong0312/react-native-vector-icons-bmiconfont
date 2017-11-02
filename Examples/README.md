@@ -1,3 +1,1 @@
-## fork https://oblador.github.io/react-native-vector-icons/
-
-
+## fork https://github.com/oblador/react-native-vector-icons.git
