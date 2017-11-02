@@ -31,16 +31,16 @@
     "iconfont"
   ],
   "author": {
-    "name": "angrycans",
-    "email": "angrycans@gmail.com"
+    "name": "xiaoyongbeyond",
+    "email": "xiaoyongbeyond@gmail.com"
   },
-  "homepage": "https://github.com/angrycans/react-native-vector-icons-bmiconfont",
+  "homepage": "https://github.com/xiaoyong0312/react-native-vector-icons-bmiconfont",
   "bugs": {
-    "url": "https://github.com/angrycans/react-native-vector-icons-bmiconfont/issues"
+    "url": "https://github.com/xiaoyong0312/react-native-vector-icons-bmiconfont/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/angrycans/react-native-vector-icons-bmiconfont.git"
+    "url": "git://github.com/xiaoyong0312/react-native-vector-icons-bmiconfont.git"
   },
   "license": "MIT",
   "rnpm": {
